@@ -28,7 +28,7 @@ It was further enhanced and supported by:
 {% endtab %}
 
 {% tab title="Community" %}
- Echo is a community driven and supported project. We highly encourage researchers, practitioners and OSS enthusiasts to contribute to Echo. 
+Echo is a community driven and supported project. We highly encourage researchers, practitioners and OSS enthusiasts to contribute to Echo. 
 
 Please check out our contributing guidelines before creating a pull request. 
 
