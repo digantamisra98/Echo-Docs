@@ -30,6 +30,12 @@ It was further enhanced and supported by:
 {% tab title="Community" %}
  Echo is a community driven and supported project. We highly encourage researchers, practitioners and OSS enthusiasts to contribute to Echo. 
 
+Please check out our contributing guidelines. 
+
+
+
+Thanks!
+
 ![Diganta](.gitbook/assets/unnamed.png)
 {% endtab %}
 {% endtabs %}
