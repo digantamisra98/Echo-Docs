@@ -12,5 +12,5 @@ $ pip install echoAI
 **echo** is listed as a separate project under PyPI manager, so to ensure correct installation, use the package identifier **echoAI**.
 {% endhint %}
 
-
+## Build from source
 
