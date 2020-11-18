@@ -36,11 +36,11 @@ echoAI.Activation.t_ops.Swish(swish=True)
 Allows the following element-wise functions:
 
 $$
-\textbf{Swish}(x)=x\text{sigmoid}(\beta x)
+\textbf{Swish}(x)=x\text{sigmoid}(\beta_{1} x)
 $$
 
 $$
-\textbf{ESwish}(x)=\beta_{1}x\text{sigmoid}(x)
+\textbf{ESwish}(x)=\beta x\text{sigmoid}(x)
 $$
 
 $$
