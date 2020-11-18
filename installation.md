@@ -9,7 +9,7 @@ $ pip install echoAI
 ```
 
 {% hint style="warning" %}
-Echo is listed as a separate project under PyPI manager, so ensure to install Echo using the package identifier **echoAI**.
+**echo** is listed as a separate project under PyPI manager, so to ensure correct installation, use the package identifier **echoAI**.
 {% endhint %}
 
 
