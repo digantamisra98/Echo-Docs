@@ -130,5 +130,30 @@ $$
 
 [Shifting Mean Activation Towards Zero with Bipolar Activation Functions](https://arxiv.org/abs/1709.04054)
 
-####   <a id="aria-reference"></a>
+## APL
+
+```python
+echoAI.Activation.t_ops.APL(in_features, a = None, b = None)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{APL}(x)= \max(0,x) + \sum^{S}_{s=1}{a_{i}^{s} \ast \max(0, -x+b_{i}^{s})}
+$$
+
+#### Parameters: <a id="apl-parameters"></a>
+
+* **in\_features** - Shape of the input. Datatype: `Tuple`
+* **a** - trainable parameter, control the slopes of the linear segments. Default: `None`
+* **b** - trainable parameter, determine the locations of the hinges. Default: `None`
+
+#### Shape: <a id="apl-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="apl-reference"></a>
+
+[Learning Activation Functions to Improve Deep Neural Networks](https://arxiv.org/abs/1412.6830) 
 
