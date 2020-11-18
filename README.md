@@ -32,7 +32,7 @@ It was further enhanced and supported by:
 {% tab title="Community" %}
 Echo is a community driven and supported project. We highly encourage researchers, practitioners and OSS enthusiasts to contribute to Echo. 
 
-Please check out our contributing guidelines before creating a pull request. 
+Please check out our [contributing guidelines](https://xa9ax.gitbook.io/echo/contributing-guidelines) before submitting a pull request or raising an issue.
 
 
 
