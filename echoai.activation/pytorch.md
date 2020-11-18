@@ -54,7 +54,7 @@ $$
 \end{cases}
 $$
 
-#### Parameters: <a id="mish-shape"></a>
+#### Parameters: <a id="swish-parameters"></a>
 
 * **eswish** - Uses E-Swish activation function. Default: `False`.
 * **swish** - Uses Swish activation function. Default: False.
@@ -65,12 +65,18 @@ $$
 Note: When **eswish**, **swish** and **flatten** are `False`, it initializes the _SILU_ activation function by default.
 {% endhint %}
 
-#### Shape: <a id="mish-shape"></a>
+#### Shape: <a id="swish-shape"></a>
 
 * Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
 * Output:$$(\mathbf{N}, \ast)$$,same shape as input
 
-#### References: <a id="mish-reference"></a>
+#### References: <a id="swish-reference"></a>
 
-[Mish: A Self Regularized Non-Monotonic Activation Function](https://www.bmvc2020-conference.com/assets/papers/0928.pdf)
+[Searching for Activation Functions](https://arxiv.org/abs/1710.05941)
+
+[E-swish: Adjusting Activations to Different Network Depths](https://arxiv.org/abs/1801.07145)
+
+[Flatten-T Swish: a thresholded ReLU-Swish-like activation function for deep learning](https://arxiv.org/abs/1812.06247)
+
+[Sigmoid-Weighted Linear Units for Neural Network Function Approximation in Reinforcement Learning](https://arxiv.org/abs/1702.03118)
 
