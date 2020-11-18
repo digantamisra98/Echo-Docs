@@ -231,7 +231,7 @@ $$
 echoAI.Activation.t_ops.Maxout()
 ```
 
-Allows the following element-wise functions:
+Applies the element-wise function:
 
 $$
 \textbf{Maxout}(\vec{x})= \max_{i}(x_{i})
@@ -245,4 +245,30 @@ $$
 #### Reference: <a id="maxout-reference"></a>
 
 [Maxout Networks](https://arxiv.org/abs/1302.4389)
+
+## NLReLU
+
+```python
+echoAI.Activation.t_ops.NLReLU(beta = 1.0, inplace = False)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{NLReLU}(x)= \ln(\beta\max(0,x)+1.0)
+$$
+
+#### Parameters: <a id="nlrelu-shape"></a>
+
+* **beta** - $$\beta$$parameter used for NLReLU formulation. Default: 1.0
+* **inplace** - can optionally do the operation in-place. Default: `False`
+
+#### Shape: <a id="nlrelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="nlrelu-reference"></a>
+
+[Natural-Logarithm-Rectified Activation Function in Convolutional Neural Networks](https://arxiv.org/abs/1908.03682)
 
