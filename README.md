@@ -1,2 +1,4 @@
-# Echo-Docs
-Gitbook docs for Echo
+# Initial page
+
+Welcome to the documentation for Echo
+
