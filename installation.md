@@ -14,3 +14,11 @@ $ pip install echoAI
 
 ## Build from source
 
+```
+$ pip install https://github.com/digantamisra98/Echo.git
+```
+
+{% hint style="warning" %}
+Might contain bugs. Suggested to rather install the stable release from PyPI.
+{% endhint %}
+
