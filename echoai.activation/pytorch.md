@@ -179,7 +179,7 @@ $$
 \end{cases}
 $$
 
-#### Parameters: <a id="elish-parameters"></a>
+#### Parameter: <a id="elish-parameters"></a>
 
 * **hard** - ****Uses Hard ELiSH activation function. Default: `False`
 
@@ -188,7 +188,40 @@ $$
 * Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
 * Output:$$(\mathbf{N}, \ast)$$,same shape as input
 
-#### References: <a id="elish-references"></a>
+#### Reference: <a id="elish-references"></a>
 
 [The Quest for the Golden Activation Function](https://arxiv.org/abs/1808.00783)
+
+## ISRU
+
+```python
+echoAI.Activation.t_ops.ISRU(alpha = 1.0, isrlu = False)
+```
+
+Allows the following element-wise functions:
+
+$$
+\textbf{ISRU}(x)= \frac{x}{\sqrt{1+\alpha x^{2}}}
+$$
+
+$$
+\textbf{ISRLU}(x)= \begin{cases}
+    x & \text{if } x \geq 0\\
+    \frac{x}{\sqrt{1+\alpha x^{2}}} & \text{otherwise}
+\end{cases}
+$$
+
+#### Parameters: <a id="isru-parameters"></a>
+
+* **alpha** - ****hyperparameter$$\alpha$$controls the value to which an ISRLU saturates for negative inputs. Default: 1.0
+* **isrlu** - Uses ISRLU activation function. Default: `False`
+
+#### Shape: <a id="isru-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="isru-references"></a>
+
+[Improving Deep Learning by Inverse Square Root Linear Units \(ISRLUs\)](https://arxiv.org/abs/1710.09967)
 
