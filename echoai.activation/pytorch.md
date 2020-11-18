@@ -57,8 +57,8 @@ $$
 #### Parameters: <a id="swish-parameters"></a>
 
 * **eswish** - Uses E-Swish activation function. Default: `False`.
-* **swish** - Uses Swish activation function. Default: False.
-* **flatten** - Uses Flatten T-Swish activation function. Default: False.
+* **swish** - Uses Swish activation function. Default: `False`.
+* **flatten** - Uses Flatten T-Swish activation function. Default: `False`.
 * **beta** - $$\beta$$parameter used for E-Swish formulation. Default: 1.375
 
 {% hint style="info" %}
