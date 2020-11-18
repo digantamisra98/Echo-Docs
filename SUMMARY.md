@@ -24,5 +24,6 @@
 ---
 
 * [Tests](tests.md)
+* [Releases](releases.md)
 * [Contributing Guidelines](contributing-guidelines.md)
 
