@@ -157,3 +157,38 @@ $$
 
 [Learning Activation Functions to Improve Deep Neural Networks](https://arxiv.org/abs/1412.6830) 
 
+## ELiSH
+
+```python
+echoAI.Activation.t_ops.Elish(hard = False)
+```
+
+Allows the following element-wise functions:
+
+$$
+\textbf{ELiSH}(x)= \begin{cases}
+    x\text{sigmoid}(x) & \text{if } x \geq 0\\
+    (e^{x}-1)\text{sigmoid}(x) & \text{otherwise}
+\end{cases}
+$$
+
+$$
+\textbf{Hard ELiSH}(x)= \begin{cases}
+    x\max(0, \min(1,(x+1)/2)) & \text{if } x \geq 0\\
+    (e^{x}-1)\max(0, \min(1,(x+1)/2)) & \text{otherwise}
+\end{cases}
+$$
+
+#### Parameters: <a id="elish-parameters"></a>
+
+* **hard** - ****Uses Hard ELiSH activation function. Default: `False`
+
+#### Shape: <a id="elish-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### References: <a id="elish-references"></a>
+
+[The Quest for the Golden Activation Function](https://arxiv.org/abs/1808.00783)
+
