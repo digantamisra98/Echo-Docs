@@ -106,5 +106,29 @@ $$
 
 [ARiA: Utilizing Richard's Curve for Controlling the Non-monotonicity of the Activation Function in Deep Neural Nets](https://arxiv.org/abs/1805.08878)
 
+## BReLU
+
+```python
+echoAI.Activation.t_ops.BReLU()
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{BReLU}(x_{i})= \begin{cases}
+    f(x_{i}) & \text{if } \text{\textit{i} mod 2 = 0}\\
+    -f(-x_{i}) & \text{if } \text{\textit{i} mod 2} \neq \text{0}
+\end{cases}
+$$
+
+#### Shape: <a id="brelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="brelu-reference"></a>
+
+[Shifting Mean Activation Towards Zero with Bipolar Activation Functions](https://arxiv.org/abs/1709.04054)
+
 ####   <a id="aria-reference"></a>
 
