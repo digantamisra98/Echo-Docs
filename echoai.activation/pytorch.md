@@ -225,3 +225,24 @@ $$
 
 [Improving Deep Learning by Inverse Square Root Linear Units \(ISRLUs\)](https://arxiv.org/abs/1710.09967)
 
+## Maxout
+
+```python
+echoAI.Activation.t_ops.Maxout()
+```
+
+Allows the following element-wise functions:
+
+$$
+\textbf{Maxout}(\vec{x})= \max_{i}(x_{i})
+$$
+
+#### Shape: <a id="maxout-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="maxout-reference"></a>
+
+[Maxout Networks](https://arxiv.org/abs/1302.4389)
+
