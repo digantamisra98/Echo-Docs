@@ -1,4 +1,6 @@
-# Initial page
+# Echo Docs
 
-Welcome to the documentation for Echo
+![](.gitbook/assets/logo_transparent.png)
+
+Welcome to the documentation for [Echo](https://github.com/digantamisra98/Echo).
 
