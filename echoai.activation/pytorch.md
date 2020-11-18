@@ -1,25 +1,18 @@
 # PyTorch
 
-## Getting Super Powers
+## Mish
 
-Becoming a super hero is a fairly straight forward process:
-
-```
-$ give me super-powers
+```python
+echoAI.Activation.Torch.mish.Mish()
 ```
 
-{% hint style="info" %}
- Super-powers are granted randomly so please submit an issue if you're not happy with yours.
-{% endhint %}
+Applies the element-wise function:
 
-Once you're strong enough, save the world:
+$$
+f(x)=x\tanh(softplus(x))
+$$
 
-{% code title="hello.sh" %}
-```bash
-# Ain't no code for that yet, sorry
-echo 'You got to trust me on this, I saved the world'
-```
-{% endcode %}
+#### Parameters
 
 
 
