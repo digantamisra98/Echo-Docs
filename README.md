@@ -20,13 +20,13 @@ Our goal with Echo is to provide a single, easy to use, well documented package 
 {% tab title="Creators" %}
 Echo started as a passionate idea by two individuals:
 
-* Diganta Misra
-* Alexandra Deis
+* [Diganta Misra](https://digantamisra98.github.io/)
+* [Alexandra Deis](https://lexie88rus.github.io/)
 
 It was further enhanced and supported by:
 
-* Sasikanth Kotti
-* Soumik Rakshit
+* [Sasikanth Kotti](https://github.com/ksasi)
+* [Soumik Rakshit](https://soumik12345.github.io/)
 {% endtab %}
 
 {% tab title="Community" %}
