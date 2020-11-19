@@ -41,7 +41,7 @@ Thanks!
 ![Diganta](.gitbook/assets/unnamed.png)
 {% endtab %}
 
-{% tab title="Collaborations" %}
+{% tab title="Collaborations/ Contributions" %}
 Echo is maintained and supported by passionate researchers and developers from diverse backgrounds and diverse organizations. The project is built on the commitment of providing universal platform supported deep learning modules for fast research and experimentation.
 
 {% hint style="info" %}
