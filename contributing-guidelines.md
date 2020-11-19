@@ -29,6 +29,12 @@ pip install -U -r requirements.txt  # install the dependencies
 make lint  # runs the linting tools only
 ```
 
+### Vulnerabilities Tracking
+
+| ![](.gitbook/assets/logo-black.png)  | Echo relies on Snyk for tracking vulnerability issues involved with dependencies graph for Echo. Snyk test is directly incorporated into the Travis CI/CD pipeline.    |
+| :---: | :--- |
+
+
 ### Tests
 
 Echo enforces four types of test to maintain code standards and compatibility for stable releases across platforms. These four types include:
