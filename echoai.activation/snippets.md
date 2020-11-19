@@ -1,9 +1,5 @@
 # Snippets
 
-#### Code Examples:
-
-Sample scripts are provided in [Smoke\_tests](/Smoke_tests) folder.
-
 **PyTorch**:
 
 ```python
@@ -11,7 +7,7 @@ Sample scripts are provided in [Smoke\_tests](/Smoke_tests) folder.
 import torch
 
 # import activation function from echoAI
-from echoAI.Activation.Torch.mish import Mish
+from echoAI.Activation.t_ops import Mish
 
 # apply activation function
 mish = Mish()
@@ -28,7 +24,7 @@ from tensorflow.keras import layers
 from tensorflow.keras.layers import Dense, Flatten
 
 # import activation function from echoAI
-from echoAI.Activation.TF_Keras.custom_activation import Mish
+from echoAI.Activation.tf_ops import Mish
 
 model = tf.keras.Sequential([
     layers.Flatten(),
