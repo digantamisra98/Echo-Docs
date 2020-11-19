@@ -4,6 +4,14 @@ description: The Hitchhiker's Guide to contributing your first pull request to E
 
 # Contributing Guidelines
 
+### Introduction
+
+This page contains all relevant information for individuals and institutions who intend to contribute to Echo. Echo is an open source project and, as such, its success relies on its community of contributors willing to keep improving it. We value every contribution highly and believe a foundation guideline is extremely crucial in maintaining the quality of the code in such open source packages. 
+
+Thus, we request you to read this page thoroughly before initiating your contribution, irrespective of whether you're a seasoned open source contributor/ maintainer or a first time contributor. 
+
+Thanks! 
+
 ### Code Style
 
 ![](.gitbook/assets/style.png)
@@ -12,7 +20,7 @@ Echo relies on [Black ](https://github.com/psf/black)and [Flake8 ](https://githu
 
 ```text
 pip install -U -r requirements.txt  # install the dependencies
-make link  # runs the linting tools only
+make lint  # runs the linting tools only
 ```
 
 ### Tests
