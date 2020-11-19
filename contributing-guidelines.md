@@ -4,7 +4,7 @@ description: The Hitchhiker's Guide to contributing your first pull request to E
 
 # Contributing Guidelines
 
-### Introduction
+## Introduction
 
 This page contains all relevant information for individuals and institutions who intend to contribute to Echo. Echo is an open source project and, as such, its success relies on its community of contributors willing to keep improving it. We value every contribution highly and believe a foundation guideline is extremely crucial in maintaining the quality of the code in such open source packages. 
 
@@ -12,11 +12,15 @@ Thus, we request you to read this page thoroughly before initiating your contrib
 
 Thanks! 
 
-### Issues
+## Issues
 
 We highly encourage to raise issues before submitting a pull request regarding a new feature request. This helps us to communicate with you in regards to the validation and feasibility of introducing the new feature in discussion to Echo. As the scope of the project is huge, we plan to add new features which either has been published or has been validated by community usage. _**The discretion of accepting/ rejecting new feature requests lies solely with the administrators of the branch and the lead maintainers of the package.**_ 
 
 We also encourage to raise an issue regarding faulty code, vulnerabilities or bugs before submitting a pull request so that we can efficiently address the severity of the bug in question and also communicate efficient fix for you to submit ideal pull requests to resolve them. Please follow the issues template for consistency. 
+
+## Pull Requests
+
+
 
 ### Code Style
 
