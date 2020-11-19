@@ -20,8 +20,8 @@ $$
 
 #### Shape: <a id="mish-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="mish-reference"></a>
 
@@ -67,8 +67,8 @@ Note: When **eswish**, **swish** and **flatten** are `False`, it initializes the
 
 #### Shape: <a id="swish-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### References: <a id="swish-reference"></a>
 
@@ -99,8 +99,8 @@ $$
 
 #### Shape: <a id="aria-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="aria-reference"></a>
 
@@ -123,8 +123,8 @@ $$
 
 #### Shape: <a id="brelu-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="brelu-reference"></a>
 
@@ -150,8 +150,8 @@ $$
 
 #### Shape: <a id="apl-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="apl-reference"></a>
 
@@ -185,8 +185,8 @@ $$
 
 #### Shape: <a id="elish-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="elish-references"></a>
 
@@ -218,8 +218,8 @@ $$
 
 #### Shape: <a id="isru-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="isru-references"></a>
 
@@ -239,8 +239,8 @@ $$
 
 #### Shape: <a id="maxout-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="maxout-reference"></a>
 
@@ -265,8 +265,8 @@ $$
 
 #### Shape: <a id="nlrelu-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="nlrelu-reference"></a>
 
@@ -290,8 +290,8 @@ $$
 
 #### Shape: <a id="softclipping-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="softclipping-reference"></a>
 
@@ -319,8 +319,8 @@ $$
 
 #### Shape: <a id="softexponential-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="softexponential-reference"></a>
 
@@ -345,8 +345,8 @@ $$
 
 #### Shape: <a id="sqnl-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="sqnl-reference"></a>
 
@@ -375,10 +375,35 @@ $$
 
 #### Shape: <a id="srelu-shape"></a>
 
-* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
-* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="srelu-reference"></a>
 
 [Deep Learning with S-shaped Rectified Linear Activation Units](https://arxiv.org/abs/1512.07030)
+
+## FReLU
+
+```python
+echoAI.Activation.t_ops.FReLU(in_channels)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{FReLU}(x)= \max(x,\mathbb{T}(x))
+$$
+
+#### Parameter: <a id="frelu-parameter"></a>
+
+* **in\_channels** - Number of channels in the input tensor. Datatype: `Integer`
+
+#### Shape: <a id="frelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+
+#### Reference: <a id="frelu-reference"></a>
+
+[Funnel Activation for Visual Recognition](https://arxiv.org/abs/2007.11824)
 
