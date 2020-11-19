@@ -1,8 +1,12 @@
+---
+description: >-
+  This page contains the list of all attention models and non-local layers
+  available in Echo.
+---
+
 # CV
 
-#### Attention and Non-Local Layers
-
-The package contains implementation for following attention mechanisms for Computer Vision \(✅ - implemented functions, 🕑 - functions to be implemented soon, :white\_large\_square: - function is implemented in the original deep learning package\):
+Echo contains implementation for following attention mechanisms for Computer Vision \(✅ - implemented functions, 🕑 - functions to be implemented soon, ⬜ - function is implemented in the original deep learning package\):
 
 | \# | Function | PyTorch | TensorFlow | MegEngine |
 | :---: | :--- | :---: | :---: | :---: |

@@ -1,6 +1,10 @@
+---
+description: This page contains the list of all activation functions supported in Echo.
+---
+
 # Activation Functions
 
-The package contains implementation for following activation functions \(✅ - implemented functions, 🕑 - functions to be implemented soon, ⬜ - function is implemented in the original deep learning package\):
+Echo contains implementation for following activation functions \(✅ - implemented functions, 🕑 - functions to be implemented soon, ⬜ - function is implemented in the original deep learning package\):
 
 | \# | Function | PyTorch | TensorFlow | MegEngine |
 | :---: | :--- | :---: | :---: | :---: |
