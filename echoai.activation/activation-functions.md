@@ -3,7 +3,7 @@
 The package contains implementation for following activation functions \(✅ - implemented functions, 🕑 - functions to be implemented soon, ⬜ - function is implemented in the original deep learning package\):
 
 | \# | Function | PyTorch | TensorFlow | MegEngine |
-| :---: | :---: | :---: | :---: | :---: |
+| :---: | :--- | :---: | :---: | :---: |
 | 1 | [Mish](https://www.bmvc2020-conference.com/assets/papers/0928.pdf) | ✅ | ✅ | ✅ |
 | 2 | [Swish](https://arxiv.org/abs/1710.05941) | ✅ | ✅ | ✅ |
 | 3 | [ESwish](https://arxiv.org/abs/1801.07145) | ✅ | ✅ | ✅ |
