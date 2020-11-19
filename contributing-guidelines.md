@@ -20,7 +20,7 @@ We also encourage to raise an issue regarding faulty code, vulnerabilities or bu
 
 ## Pull Requests
 
-
+ We encourage you to create pull requests early. It helps us track the contributions under development, whether they are ready to be merged or not. Change your pull request's title to begin with `[WIP]` until it is ready for formal review.
 
 ### Code Style
 
