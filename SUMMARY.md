@@ -34,7 +34,7 @@
 
 ---
 
-* [Releases](releases.md)
 * [Examples](examples.md)
 * [Contributing Guidelines](contributing-guidelines.md)
+* [Releases](releases.md)
 
