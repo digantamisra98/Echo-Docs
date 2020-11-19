@@ -22,23 +22,7 @@ We also encourage to raise an issue regarding faulty code, vulnerabilities or bu
 
 We encourage you to create pull requests early. It helps us track the contributions under development, whether they are ready to be merged or not. Change your pull request's title to begin with `[WIP]` until it is ready for formal review.
 
-
-
-Fixes \# .
-
-**Description** A few sentences describing the changes proposed in this pull request.
-
-**Status** Ready/Work in progress/Hold
-
-Types of changes
-
-* [x] Non-breaking change \(fix or new feature that would not break existing functionality\).
-* [ ] Breaking change \(fix or new feature that would cause existing functionality to change\).
-* [ ] New tests added to cover the changes.
-* [ ] Linting tests passed locally by running `make lint`
-* [ ] Unit tests passed locally by running `make test`
-* [ ] Documentation updated.
-* [ ] DCO Agremeent signed. 
+Please follow the default pull request template generated while creating a new pull request.
 
 ### Code Style
 
