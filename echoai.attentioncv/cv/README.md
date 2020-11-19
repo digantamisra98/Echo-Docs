@@ -1,7 +1,7 @@
 ---
 description: >-
-  This page contains the list of all attention models and non-local layers
-  available in Echo.
+  This page contains the list of all attention models and non-local layers for
+  computer vision available in Echo.
 ---
 
 # CV
