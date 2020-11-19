@@ -18,7 +18,3 @@ $ pip install echoAI
 $ pip install git+https://github.com/digantamisra98/Echo.git
 ```
 
-{% hint style="warning" %}
-Might contain bugs. Suggested to rather install the stable release from PyPI.
-{% endhint %}
-
