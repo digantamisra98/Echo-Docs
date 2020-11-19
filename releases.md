@@ -13,6 +13,7 @@ _**Upcoming Stable Release. Currently under development.**_
 * Fixed implementations for the following activation functions in **PyTorch**: `Swish`, `SILU`, `ESwish`, `Flatten T-Swish`, `ELiSH`, `Hard ELiSH`, `BReLU`, `APL` 
 * Fixed Unit Tests for **PyTorch** activation functions
 * Fixed **Flake8** and **Black** support
+* Fixed Codecov support
 
 ### Changed
 
@@ -21,9 +22,9 @@ _**Upcoming Stable Release. Currently under development.**_
 * Changed directory listing for `Activation/`
 * Updated package dependencies graph
 * Removed dedicated smoke test and unit test folder
-* Refactored Unit Tests for activation functions.
-* Removed activation functions with no published paper reference.
-* New logo for Echo.
+* Refactored Unit Tests for activation functions
+* Removed activation functions with no published paper reference
+* New logo for Echo
 
 ### Added
 
@@ -32,13 +33,13 @@ _**Upcoming Stable Release. Currently under development.**_
 * Added proper documentation in **Gitbook**.
 * Added `FReLU` activation function. 
 * Added DCO agreement
-* Added [Contributing Guidelines](https://xa9ax.gitbook.io/echo/contributing-guidelines).
-* Added `GELU` for **TensorFlow**.
-* Added Project Roadmap.
-* Added Attention Models for NLP and CV.
-* Added Optimizers.
-* Added Unit tests for attention models.
-* Added Rosenbrock and Himmelblau convergence tests for optimizers.
+* Added [Contributing Guidelines](https://xa9ax.gitbook.io/echo/contributing-guidelines)
+* Added `GELU` for **TensorFlow**
+* Added Project Roadmap
+* Added Attention Models for NLP and CV
+* Added Optimizers
+* Added Unit tests for attention models
+* Added Rosenbrock and Himmelblau convergence tests for optimizers
 
 ## [0.1.3 - 2019-08-15](https://pypi.org/project/echoAI/0.1.3/) 🌕
 
