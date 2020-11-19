@@ -44,11 +44,9 @@ Thanks!
 {% tab title="Collaborations" %}
 Echo is maintained and supported by passionate researchers and developers from diverse backgrounds and diverse organizations. The project is built on the commitment of providing universal platform supported deep learning modules for fast research and experimentation.
 
-
-
-To get your organization logo displayed here, please contact any of the package admins/ creators.
-
-
+{% hint style="info" %}
+_To get your organization logo displayed here, please contact any of the package admins/ creators._
+{% endhint %}
 
 | ![](.gitbook/assets/cae4ec78339485.5ca24a46b9da6.png) ![](.gitbook/assets/55165839.png)![](.gitbook/assets/1200px-logo_of_x_-company-.svg.png) | ![](.gitbook/assets/c1f63ovveaapq-4.jpg)![](.gitbook/assets/mila-purple.png)![](.gitbook/assets/dplzk52v.jpg)  | ![](.gitbook/assets/kiit-university-logo-e1506355385141-1.jpg) ![](.gitbook/assets/wordmark.png)  |    |
 | :---: | :---: | :---: | :---: |
