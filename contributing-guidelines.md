@@ -8,7 +8,7 @@ description: The Hitchhiker's Guide to contributing your first pull request to E
 
 ![Echo Code Styling Framework](.gitbook/assets/style.png)
 
-Echo relies on [Black ](https://github.com/psf/black)and [Flake8 ](https://github.com/PyCQA/flake8)for code formatting. We additionally use [isort ](https://pycqa.github.io/isort/)for `import` statements in code. Before submitting a pull request, we recommend that all linting should pass, by running the following command locally:
+Echo relies on [Black ](https://github.com/psf/black)and [Flake8 ](https://github.com/PyCQA/flake8)for code formatting. We additionally use [isort ](https://pycqa.github.io/isort/)for `import` statements in code and [autoflake ](https://github.com/myint/autoflake)for removing unused `imports` and unused `variables`. Before submitting a pull request, we recommend that all linting should pass, by running the following command locally:
 
 ```text
 pip install -U -r requirements.txt  # install the dependencies
