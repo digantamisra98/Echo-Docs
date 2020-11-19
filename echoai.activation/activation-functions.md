@@ -4,21 +4,21 @@ The package contains implementation for following activation functions \(✅ - i
 
 | \# | Function | PyTorch | TensorFlow | MegEngine |
 | :---: | :---: | :---: | :---: | :---: |
-| 1 | [Mish](https://www.bmvc2020-conference.com/assets/papers/0928.pdf) | ✅ | ✅ | 🕑 |
-| 2 | [Swish](https://arxiv.org/abs/1710.05941) | ✅ | ✅ | 🕑 |
-| 3 | [ESwish](https://arxiv.org/abs/1801.07145) | ✅ | ✅ | 🕑 |
-| 4 | [Aria2](https://arxiv.org/abs/1805.08878) | ✅ | ✅ | 🕑 |
-| 5 | [ELiSH](https://arxiv.org/abs/1808.00783) | ✅ | ✅ | 🕑 |
-| 6 | [HardELiSH](https://arxiv.org/abs/1808.00783) | ✅ | ✅ | 🕑 |
-| 7 | [Flatten T-Swish](https://arxiv.org/abs/1812.06247) | ✅ | ✅ | 🕑 |
-| 8 | [SQNL](https://ieeexplore.ieee.org/document/8489043) | ✅ | ✅ | 🕑 |
-| 9 | [ISRU](https://arxiv.org/abs/1710.09967) | ✅ | ✅ | 🕑 |
-| 10 | [ISRLU](https://arxiv.org/abs/1710.09967) | ✅ | ✅ | 🕑 |
-| 11 | [Soft Clipping](https://arxiv.org/abs/1810.11509) | ✅ | ✅ | 🕑 |
-| 12 | [SReLU](https://arxiv.org/abs/1512.07030) | ✅ | ✅ | 🕑 |
+| 1 | [Mish](https://www.bmvc2020-conference.com/assets/papers/0928.pdf) | ✅ | ✅ | ✅ |
+| 2 | [Swish](https://arxiv.org/abs/1710.05941) | ✅ | ✅ | ✅ |
+| 3 | [ESwish](https://arxiv.org/abs/1801.07145) | ✅ | ✅ | ✅ |
+| 4 | [Aria2](https://arxiv.org/abs/1805.08878) | ✅ | ✅ | ✅ |
+| 5 | [ELiSH](https://arxiv.org/abs/1808.00783) | ✅ | ✅ | ✅ |
+| 6 | [HardELiSH](https://arxiv.org/abs/1808.00783) | ✅ | ✅ | ✅ |
+| 7 | [Flatten T-Swish](https://arxiv.org/abs/1812.06247) | ✅ | ✅ | ✅ |
+| 8 | [SQNL](https://ieeexplore.ieee.org/document/8489043) | ✅ | ✅ | ✅ |
+| 9 | [ISRU](https://arxiv.org/abs/1710.09967) | ✅ | ✅ | ✅ |
+| 10 | [ISRLU](https://arxiv.org/abs/1710.09967) | ✅ | ✅ | ✅ |
+| 11 | [Soft Clipping](https://arxiv.org/abs/1810.11509) | ✅ | ✅ | ✅ |
+| 12 | [SReLU](https://arxiv.org/abs/1512.07030) | ✅ | ✅ | ✅ |
 | 13 | [BReLU](https://arxiv.org/abs/1709.04054) | ✅ | ✅ | 🕑 |
 | 14 | [APL](https://arxiv.org/abs/1412.6830) | ✅ | ✅ | 🕑 |
-| 15 | [Soft ](https://arxiv.org/abs/1602.01321)[Exponential](https://arxiv.org/abs/1602.01321) | ✅ | ✅ | 🕑 |
+| 15 | [Soft ](https://arxiv.org/abs/1602.01321)[Exponential](https://arxiv.org/abs/1602.01321) | ✅ | ✅ | ✅ |
 | 16 | [Maxout](https://arxiv.org/abs/1302.4389) | ✅ | ✅ | 🕑 |
 | 17 | [RReLU](https://arxiv.org/abs/1505.00853) | ⬜ | 🕑 | 🕑 |
 | 18 | [CELU](https://arxiv.org/abs/1704.07483) | ⬜ | ✅ | 🕑 |
