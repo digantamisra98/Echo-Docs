@@ -29,6 +29,6 @@ The package contains implementation for following activation functions \(✅ - i
 | 23 | [ProbAct](https://arxiv.org/abs/1905.10761) | 🕑 | 🕑 | 🕑 |
 | 24 | [Noisy Activation Function](https://arxiv.org/abs/1603.00391) | 🕑 | 🕑 | 🕑 |
 | 25 | [NLReLU](https://arxiv.org/abs/1908.03682) | ✅ | ✅ | 🕑 |
-| 26 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | 🕑 |
+| 26 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
 | 27 | [Dynamic ReLU](https://arxiv.org/abs/2003.10027) | 🕑 | 🕑 | 🕑 |
 
