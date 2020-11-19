@@ -12,6 +12,12 @@ Thus, we request you to read this page thoroughly before initiating your contrib
 
 Thanks! 
 
+### Issues
+
+We highly encourage to raise issues before submitting a pull request regarding a new feature request. This helps us to communicate with you in regards to the validation and feasibility of introducing the new feature in discussion to Echo. As the scope of the project is huge, we plan to add new features which either has been published or has been validated by community usage. _**The discretion of accepting/ rejecting new feature requests lies solely with the administrators of the branch and the lead maintainers of the package.**_ 
+
+We also encourage to raise an issue regarding faulty code, vulnerabilities or bugs before submitting a pull request so that we can efficiently address the severity of the bug in question and also communicate efficient fix for you to submit ideal pull requests to resolve them. Please follow the issues template for consistency. 
+
 ### Code Style
 
 ![](.gitbook/assets/style.png)
