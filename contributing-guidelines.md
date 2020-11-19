@@ -63,6 +63,12 @@ _If it's not tested, it's broken_
 
 All new functionality should be accompanied by an appropriate set of tests. Echo functionality has plenty of unit tests from which you can draw inspiration, and you can reach out to us if you are unsure of how to proceed with testing.
 
+### Documentation
+
+Echo's docs are located in the `master` branch of [Echo Docs](https://github.com/digantamisra98/Echo-Docs). 
+
+While adding any new functionalities or fixing bug in Echo which requires modification in it's corresponding documentation, submit a pull request to the docs repository with clear reference to the original ticket in the Echo repository. Please follow the markdown styling for documentation as maintained in Echo Docs. 
+
 ### Developer Certificate of Origin \(DCO\)
 
 Echo enforces the [Developer Certificate of Origin](https://developercertificate.org/) \(DCO\) on all pull requests. All commit messages should contain the `Signed-off-by` line with an email address. The [GitHub DCO app](https://github.com/apps/dco) is deployed on Echo. The pull request's status will be `failed` if commits do not contain a valid `Signed-off-by` line.
