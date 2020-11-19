@@ -22,7 +22,9 @@ We also encourage to raise an issue regarding faulty code, vulnerabilities or bu
 
 We encourage you to create pull requests early. It helps us track the contributions under development, whether they are ready to be merged or not. Change your pull request's title to begin with `[WIP]` until it is ready for formal review.
 
-Please follow the default pull request template generated while creating a new pull request.
+_Please follow the default pull request template generated while creating a new pull request_.
+
+This section highlights all the necessary preparation steps required before sending a pull request. To collaborate efficiently, please read through this section and follow them.
 
 ### Code Style
 
@@ -48,6 +50,18 @@ Echo enforces four types of test to maintain code standards and compatibility fo
 * **Smoke Tests**
 * **Break Tests**
 * **Unit Tests**
+* **Integration Tests**
+
+All tests for Echo is located under the `tests/` directory. 
+
+It is recommended that the new test `test_[module_name].py` is constructed by using only python 3.6+ build-in functions, `torch`, `numpy`, and `parameterized` packages. If it requires any other external packages, please make sure:
+
+* the packages are listed in `requirements.txt`
+* the packages don't have any vulnerabilities by running it locally against Snyk.
+
+_If it's not tested, it's broken_
+
+All new functionality should be accompanied by an appropriate set of tests. Echo functionality has plenty of unit tests from which you can draw inspiration, and you can reach out to us if you are unsure of how to proceed with testing.
 
 ### Developer Certificate of Origin \(DCO\)
 
