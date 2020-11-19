@@ -272,3 +272,113 @@ $$
 
 [Natural-Logarithm-Rectified Activation Function in Convolutional Neural Networks](https://arxiv.org/abs/1908.03682)
 
+## Soft Clipping
+
+```python
+echoAI.Activation.t_ops.SoftClipping(alpha = 0.5)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{Soft Clipping}(x)= \frac{1}{\alpha}\log{\big(\frac{1+e^{\alpha x}}{1+e^{\alpha (x-1)}}\big)}
+$$
+
+#### Parameters: <a id="softclipping-parameters"></a>
+
+* **alpha** -$$\alpha$$hyper-parameter, which determines how close to linear the central region is and how sharply the linear region turns to the asymptotic values. Default: 0.5
+
+#### Shape: <a id="softclipping-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="softclipping-reference"></a>
+
+[Neural Network-Based Approach to Phase Space Integration](https://arxiv.org/abs/1810.11509)
+
+## Soft Exponential
+
+```python
+echoAI.Activation.t_ops.SoftExponential(alpha = None)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{Soft Exponential}(x)= \begin{cases}
+    \frac{-\log{(1+\alpha(x + \alpha))}}{\alpha} & \text{if } \alpha < 0\\
+     x & \text{if } \alpha = 0\\
+    \frac{e^{\alpha x}-1}{\alpha} & \text{if } \alpha > 0
+\end{cases}
+$$
+
+#### Parameters: <a id="softexponential-parameters"></a>
+
+* **alpha** -$$\alpha$$trainable hyper-parameter which is initialized to zero by default. Default: `None`
+
+#### Shape: <a id="softexponential-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="softexponential-reference"></a>
+
+[A continuum among logarithmic, linear, and exponential functions, and its potential to improve generalization in neural networks](https://arxiv.org/abs/1602.01321)
+
+## SQNL
+
+```python
+echoAI.Activation.t_ops.SQNL()
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{SQNL}(x)= \begin{cases}
+    1 & \text{if } x > 2\\
+     x - \frac{x^2}{4} & \text{if } 0 \leq x \leq 2\\
+     x + \frac{x^2}{4} & \text{if } -2 \leq x < 0\\
+    -1 & \text{if } x < -2
+\end{cases}
+$$
+
+#### Shape: <a id="sqnl-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="sqnl-reference"></a>
+
+[SQNL: A New Computationally Efficient Activation Function](https://ieeexplore.ieee.org/document/8489043)
+
+## SReLU
+
+```python
+echoAI.Activation.t_ops.SReLU(in_features, parameters = None)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{SReLU}(x_{i})= \begin{cases}
+    t_i^r + a_i^r(x_i - t_i^r) & \text{if } x_i \geq t_i^r\\
+     x_i & \text{if } t_i^r > x_i > t_i^l\\
+     t_i^l + a_i^l(x_i - t_i^l) & x_i \leq  t_i^l 
+\end{cases}
+$$
+
+#### Parameters: <a id="srelu-parameters"></a>
+
+* **in\_features** - Shape of the input. Datatype: `Tuple`
+* **parameters** - \( $$t^r,t^l,a^r,a^l$$ \) parameters for manual initialization, Default: `None`. If `None` is passed, parameters are initialized randomly.
+
+#### Shape: <a id="srelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means, any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$,same shape as input
+
+#### Reference: <a id="srelu-reference"></a>
+
+[Deep Learning with S-shaped Rectified Linear Activation Units](https://arxiv.org/abs/1512.07030)
+
