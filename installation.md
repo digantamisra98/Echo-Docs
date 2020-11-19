@@ -15,7 +15,7 @@ $ pip install echoAI
 ## Build from source
 
 ```
-$ pip install https://github.com/digantamisra98/Echo.git
+$ pip install git+https://github.com/digantamisra98/Echo.git
 ```
 
 {% hint style="warning" %}
