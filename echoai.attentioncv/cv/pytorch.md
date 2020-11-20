@@ -53,7 +53,7 @@ echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
 ## Convolutional Block Attention Module 
 
 ```python
-echoAI.Attention.cv.t_attn.CBAM(gate_channels, kernel_size = 3, reduction_ratio = 16, pool_types = ['avg', 'max'], no_spatial = False, bam = False)
+echoAI.Attention.cv.t_attn.CBAM(gate_channels, kernel_size = 3, reduction_ratio = 16, pool_types = ['avg', 'max'], no_spatial = False, bam = False, num_layers = 1, bn = False, dilation_conv_num = 2, dilation_val = 4)
 ```
 
  **Supports both Convolutional Block Attention Module \(CBAM\) and Bottleneck Attention Module \(CBAM\)**
@@ -70,6 +70,10 @@ echoAI.Attention.cv.t_attn.CBAM(gate_channels, kernel_size = 3, reduction_ratio 
 * **pool\_types** - `list`of global pooling operators for channel attention gate in CBAM/BAM. Default: `['avg', 'max']`. Note: This is the default for CBAM, which expects two operators, however, if BAM is switched on, pass `['avg']`. Available options: `avg`, `lp`, `max`
 * **no\_spatial** - switches off the spatial attention gate in CBAM. Default: `False`
 * **bam** - initializes BAM. Default: `False`
+* **num\_layers** - controls the number of hidden layers in the MLP of channel attention gate in CBAM/BAM. Default: 1
+* **bn** - adds a Batch Normalization layer in the MLP of the channel attention gate in CBAM/BAM. Default: `False`. Pass True when **bam** is `True`.
+* **dilation\_conv\_num** - number of dilated channel preserving convolution layers in the spatial attention gate in BAM. Default: 2
+* **dilation\_val** - dilation factor for the convolution layers in the spatial attention gate in BAM. Default: 4
 
 #### Shape: <a id="cbam-shape"></a>
 
