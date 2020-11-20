@@ -12,8 +12,6 @@ description: >-
 echoAI.Attention.cv.t_attn.TripletAttention(no_spatial = False, kernel_size = 7)
 ```
 
-####   <a id="triplet-shape"></a>
-
 ![Triplet Attention](../../.gitbook/assets/triplet.png)
 
 #### Parameters: <a id="triplet-parameters"></a>
@@ -36,9 +34,33 @@ echoAI.Attention.cv.t_attn.TripletAttention(no_spatial = False, kernel_size = 7)
 echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
 ```
 
-####    <a id="triplet-shape"></a>
-
 ![Squeeze Excite Attention](../../.gitbook/assets/electronics-08-00385-g001.png)
+
+#### Parameters: <a id="se-parameters"></a>
+
+* **gate\_channels** - number of channels in the input tensor. Datatype: `Integer`
+* **reduction\_ratio** - squeeze bottleneck factor of the MLP in Squeeze Excite Attention. Default: 16
+
+#### Shape: <a id="se-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$4 dimensional feature map tensor.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$,same shape as input
+
+#### Reference: <a id="se-reference"></a>
+
+[Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507)
+
+## Convolutional Block Attention Module 
+
+```python
+echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
+```
+
+ **Supports both Convolutional Block Attention Module \(CBAM\) and Bottleneck Attention Module \(CBAM\)**
+
+![](../../.gitbook/assets/x1.png)
+
+![Bottleneck Attention Module](../../.gitbook/assets/5-figure2-1.png)
 
 #### Parameters: <a id="se-parameters"></a>
 
