@@ -53,7 +53,7 @@ echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
 ## Convolutional Block Attention Module 
 
 ```python
-echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
+echoAI.Attention.cv.t_attn.CBAM(gate_channels, kernel_size = 3, reduction_ratio = 16, pool_types = ['avg', 'max'], no_spatial = False, bam = False)
 ```
 
  **Supports both Convolutional Block Attention Module \(CBAM\) and Bottleneck Attention Module \(CBAM\)**
@@ -65,16 +65,20 @@ echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
 #### Parameters: <a id="se-parameters"></a>
 
 * **gate\_channels** - number of channels in the input tensor. Datatype: `Integer`
-* **reduction\_ratio** - squeeze bottleneck factor of the MLP in Squeeze Excite Attention. Default: 16
+* **kernel\_size** - window size of the convolution filters in CBAM/ BAM. Default: 3
+* **reduction\_ratio** - width factor of the MLP in CBAM/BAM. Default: 16
+* **pool\_types** - `list`of global pooling operators for channel attention gate in CBAM/BAM. Default: `['avg', 'max']`. Note: This is the default for CBAM, which expects two operators, however, if BAM is switched on, pass `['avg']`. Available options: `avg`, `lp`, `max`
+* **no\_spatial** - switches off the spatial attention gate in CBAM. Default: `False`
+* **bam** - initializes BAM. Default: `False`
 
-#### Shape: <a id="se-shape"></a>
+#### Shape: <a id="cbam-shape"></a>
 
 * Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$4 dimensional feature map tensor.
 * Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$,same shape as input
 
-#### Reference: <a id="se-reference"></a>
+#### References: <a id="cbam-references"></a>
 
-[Squeeze-and-Excitation Networks](https://arxiv.org/abs/1709.01507)
+[CBAM: Convolutional Block Attention Module](https://arxiv.org/abs/1807.06521)
 
-
+[BAM: Bottleneck Attention Module](https://arxiv.org/abs/1807.06514)
 
