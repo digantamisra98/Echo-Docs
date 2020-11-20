@@ -75,6 +75,10 @@ echoAI.Attention.cv.t_attn.CBAM(gate_channels, kernel_size = 3, reduction_ratio 
 * **dilation\_conv\_num** - number of dilated channel preserving convolution layers in the spatial attention gate in BAM. Default: 2
 * **dilation\_val** - dilation factor for the convolution layers in the spatial attention gate in BAM. Default: 4
 
+{% hint style="info" %}
+Note: By default, CBAM is initialized.
+{% endhint %}
+
 #### Shape: <a id="cbam-shape"></a>
 
 * Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$4 dimensional feature map tensor.

@@ -65,6 +65,10 @@ $$
 Note: When **eswish**, **swish** and **flatten** are `False`, it initializes the _SILU_ activation function by default.
 {% endhint %}
 
+{% hint style="info" %}
+Note: By default, SILU is initialized.
+{% endhint %}
+
 #### Shape: <a id="swish-shape"></a>
 
 * Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
@@ -183,6 +187,10 @@ $$
 
 * **hard** - ****Uses Hard ELiSH activation function. Default: `False`
 
+{% hint style="info" %}
+Note: By default, ELiSH is initialized.
+{% endhint %}
+
 #### Shape: <a id="elish-shape"></a>
 
 * Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
@@ -215,6 +223,10 @@ $$
 
 * **alpha** - ****hyperparameter$$\alpha$$controls the value to which an ISRLU saturates for negative inputs. Default: 1.0
 * **isrlu** - Uses ISRLU activation function. Default: `False`
+
+{% hint style="info" %}
+Note: By default, ISRU is initialized.
+{% endhint %}
 
 #### Shape: <a id="isru-shape"></a>
 
