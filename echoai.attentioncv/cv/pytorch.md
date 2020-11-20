@@ -12,6 +12,10 @@ description: >-
 echoAI.Attention.cv.t_attn.TripletAttention(no_spatial = False, kernel_size = 7)
 ```
 
+####   <a id="triplet-shape"></a>
+
+![Triplet Attention](../../.gitbook/assets/triplet.png)
+
 #### Parameters: <a id="triplet-shape"></a>
 
 * **no\_spatial** - switches on the spatial attention branch in Triplet Attention. Default: `False`
