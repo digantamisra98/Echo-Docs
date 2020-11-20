@@ -62,10 +62,6 @@ $$
 * **beta** - $$\beta$$parameter used for E-Swish formulation. Default: 1.375
 
 {% hint style="info" %}
-Note: When **eswish**, **swish** and **flatten** are `False`, it initializes the _SILU_ activation function by default.
-{% endhint %}
-
-{% hint style="info" %}
 Note: By default, SILU is initialized.
 {% endhint %}
 
