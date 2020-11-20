@@ -60,7 +60,7 @@ echoAI.Attention.cv.t_attn.SE(gate_channels, reduction_ratio = 16)
 
 ![](../../.gitbook/assets/x1.png)
 
-![Bottleneck Attention Module](../../.gitbook/assets/5-figure2-1.png)
+![Convolutional Block Attention Module and Bottleneck Attention Module](../../.gitbook/assets/5-figure2-1.png)
 
 #### Parameters: <a id="se-parameters"></a>
 
