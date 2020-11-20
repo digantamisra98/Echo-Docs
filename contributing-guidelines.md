@@ -63,6 +63,10 @@ _If it's not tested, it's broken_
 
 All new functionality should be accompanied by an appropriate set of tests. Echo functionality has plenty of unit tests from which you can draw inspiration, and you can reach out to us if you are unsure of how to proceed with testing.
 
+### Modularity
+
+To avoid code replication, we maintain common utils files in the `utils/`. It's highly encouraged to keep the code modular and keep common functionalities in utils files.
+
 ### Documentation
 
 Echo's docs are located in the `master` branch of [Echo Docs](https://github.com/digantamisra98/Echo-Docs). 
