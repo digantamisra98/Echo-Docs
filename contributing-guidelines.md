@@ -54,6 +54,13 @@ Echo enforces four types of test to maintain code standards and compatibility fo
 
 All tests for Echo is located under the `tests/` directory. 
 
+Before submitting a pull request, we recommend that all tests should pass, by running the following command locally:
+
+```text
+pip install -U -r requirements.txt  # install the dependencies
+make test # runs all tests
+```
+
 It is recommended that the new test `test_[module_name].py` is constructed by using only python 3.6+ build-in functions, `torch`, `numpy`, and `parameterized` packages. If it requires any other external packages, please make sure:
 
 * the packages are listed in `requirements.txt`
