@@ -144,7 +144,7 @@ $$
 
 #### Parameter: <a id="apl-parameters"></a>
 
-* **in\_features** - hyperparameter, number of hinges to be set in advance. Default: 1
+* **s** - hyperparameter, number of hinges to be set in advance. Default: 1
 
 #### Shape: <a id="apl-shape"></a>
 
