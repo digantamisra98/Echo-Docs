@@ -35,4 +35,6 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 25 | [NLReLU](https://arxiv.org/abs/1908.03682) | ✅ | ✅ | 🕑 |
 | 26 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
 | 27 | [Dynamic ReLU](https://arxiv.org/abs/2003.10027) | 🕑 | 🕑 | 🕑 |
+| 28 | [AReLU](https://arxiv.org/abs/2006.13858) | ✅ | 🕑 | 🕑 |
+| 29 | [SLAF](https://arxiv.org/abs/1906.09529) | ✅ | 🕑 | 🕑 |
 

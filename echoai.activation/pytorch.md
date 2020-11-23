@@ -142,7 +142,7 @@ $$
 \textbf{APL}(x)= \max(0,x) + \sum^{S}_{s=1}{a_{i}^{s} \ast \max(0, -x+b_{i}^{s})}
 $$
 
-#### Parameters: <a id="apl-parameters"></a>
+#### Parameter: <a id="apl-parameters"></a>
 
 * **in\_features** - hyperparameter, number of hinges to be set in advance. Default: 1
 
@@ -290,7 +290,7 @@ $$
 \textbf{Soft Clipping}(x)= \frac{1}{\alpha}\log{\big(\frac{1+e^{\alpha x}}{1+e^{\alpha (x-1)}}\big)}
 $$
 
-#### Parameters: <a id="softclipping-parameters"></a>
+#### Parameter: <a id="softclipping-parameters"></a>
 
 * **alpha** -$$\alpha$$hyper-parameter, which determines how close to linear the central region is and how sharply the linear region turns to the asymptotic values. Default: 0.5
 
@@ -319,7 +319,7 @@ $$
 \end{cases}
 $$
 
-#### Parameters: <a id="softexponential-parameters"></a>
+#### Parameter: <a id="softexponential-parameters"></a>
 
 * **alpha** -$$\alpha$$trainable hyper-parameter which is initialized to zero by default. Default: `None`
 
@@ -412,4 +412,58 @@ $$
 #### Reference: <a id="frelu-reference"></a>
 
 [Funnel Activation for Visual Recognition](https://arxiv.org/abs/2007.11824)
+
+## SLAF
+
+```python
+echoAI.Activation.t_ops.SLAF(k = 2)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{SLAF}(x)= a_0 + a_1 x + a_2 x^2 + .... + a_{N-1}x^{N-1}
+$$
+
+#### Parameter: <a id="slaf-parameter"></a>
+
+* **k** - Number of Taylor co-efficients. Default: 2
+
+#### Shape: <a id="slaf-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+
+#### Reference: <a id="slaf-reference"></a>
+
+[Learning Activation Functions: A new paradigm for understanding Neural Networks](https://arxiv.org/abs/1906.09529)
+
+## AReLU
+
+```python
+echoAI.Activation.t_ops.AReLU(alpha = 0.90, beta = 2.0)
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{AReLU}(x_i)= \begin{cases}
+    C(\alpha)x_i & \text{if } x_i <0\\
+     (1+\sigma(\beta))x_i & \text{otherwise}
+\end{cases}
+$$
+
+#### Parameters: <a id="arelu-parameters"></a>
+
+* **alpha** -$$\alpha$$trainable hyper-parameter. Default: 0.90
+* **beta** -$$\beta$$trainable hyper-parameter. Default: 2.0
+
+#### Shape: <a id="arelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+
+#### Reference: <a id="arelu-reference"></a>
+
+[AReLU: Attention-based Rectified Linear Unit](https://arxiv.org/abs/2006.13858)
 
