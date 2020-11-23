@@ -133,7 +133,7 @@ $$
 ## APL
 
 ```python
-echoAI.Activation.t_ops.APL(in_features, a = None, b = None)
+echoAI.Activation.t_ops.APL(s)
 ```
 
 Applies the element-wise function:
@@ -144,9 +144,7 @@ $$
 
 #### Parameters: <a id="apl-parameters"></a>
 
-* **in\_features** - Shape of the input. Datatype: `Tuple`
-* **a** - trainable parameter, control the slopes of the linear segments. Default: `None`
-* **b** - trainable parameter, determine the locations of the hinges. Default: `None`
+* **in\_features** - hyperparameter, number of hinges to be set in advance. Default: 1
 
 #### Shape: <a id="apl-shape"></a>
 
