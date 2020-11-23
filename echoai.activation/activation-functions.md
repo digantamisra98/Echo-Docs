@@ -28,13 +28,12 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 18 | [CELU](https://arxiv.org/abs/1704.07483) | ⬜ | ✅ | 🕑 |
 | 19 | [GLU](https://arxiv.org/abs/1612.08083) | ⬜ | 🕑 | 🕑 |
 | 20 | [SiLU](https://arxiv.org/abs/1702.03118) | ✅ | ✅ | 🕑 |
-| 21 | [GELU](https://arxiv.org/abs/1606.08415) | 🕑 | ✅ | 🕑 |
-| 22 | [CReLU](https://arxiv.org/abs/1603.05201) | 🕑 | ✅ | 🕑 |
-| 23 | [ProbAct](https://arxiv.org/abs/1905.10761) | 🕑 | 🕑 | 🕑 |
-| 24 | [Noisy Activation Function](https://arxiv.org/abs/1603.00391) | 🕑 | 🕑 | 🕑 |
-| 25 | [NLReLU](https://arxiv.org/abs/1908.03682) | ✅ | ✅ | 🕑 |
-| 26 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
-| 27 | [Dynamic ReLU](https://arxiv.org/abs/2003.10027) | 🕑 | 🕑 | 🕑 |
-| 28 | [AReLU](https://arxiv.org/abs/2006.13858) | ✅ | 🕑 | 🕑 |
-| 29 | [SLAF](https://arxiv.org/abs/1906.09529) | ✅ | 🕑 | 🕑 |
+| 21 | [CReLU](https://arxiv.org/abs/1603.05201) | 🕑 | ✅ | 🕑 |
+| 22 | [ProbAct](https://arxiv.org/abs/1905.10761) | 🕑 | 🕑 | 🕑 |
+| 23 | [Noisy Activation Function](https://arxiv.org/abs/1603.00391) | 🕑 | 🕑 | 🕑 |
+| 24 | [NLReLU](https://arxiv.org/abs/1908.03682) | ✅ | ✅ | 🕑 |
+| 25 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
+| 26 | [Dynamic ReLU](https://arxiv.org/abs/2003.10027) | 🕑 | 🕑 | 🕑 |
+| 27 | [AReLU](https://arxiv.org/abs/2006.13858) | ✅ | 🕑 | 🕑 |
+| 28 | [SLAF](https://arxiv.org/abs/1906.09529) | ✅ | 🕑 | 🕑 |
 
