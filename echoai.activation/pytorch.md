@@ -30,7 +30,7 @@ $$
 ## Swish
 
 ```python
-echoAI.Activation.t_ops.Swish(eswish = False, swish = True, beta = 1.735, flatten = False)
+echoAI.Activation.t_ops.Swish(eswish = False, swish = True, beta = 1.735, flatten = False, pfts = False)
 ```
 
 Allows the following element-wise functions:
@@ -49,8 +49,8 @@ $$
 
 $$
 \textbf{Flatten T-Swish}(x)= \begin{cases}
-    x\text{sigmoid}(x) & \text{if } x\geq 0\\
-    0              & \text{otherwise}
+    x\text{sigmoid}(x) + c & \text{if } x\geq 0\\
+    c              & \text{otherwise}
 \end{cases}
 $$
 
@@ -58,8 +58,9 @@ $$
 
 * **eswish** - Uses E-Swish activation function. Default: `False`.
 * **swish** - Uses Swish activation function. Default: `False`.
-* **flatten** - Uses Flatten T-Swish activation function. Default: `False`.
+* **flatten** - Uses Flatten T-Swish activation function. _c_ is a constant of value -0.2. Default: `False`.
 * **beta** - $$\beta$$parameter used for E-Swish formulation. Default: 1.375
+* **pfts** - Uses Parametric Flatten T-Swish function. Has the same formulation as Flatten T-Swish with only _c_ being a trainable parameter initialized with the value of -0.2 instead of setting as a constant. Default: `False`. 
 
 {% hint style="info" %}
 Note: By default, SILU is initialized.
@@ -79,6 +80,8 @@ Note: By default, SILU is initialized.
 [Flatten-T Swish: a thresholded ReLU-Swish-like activation function for deep learning](https://arxiv.org/abs/1812.06247)
 
 [Sigmoid-Weighted Linear Units for Neural Network Function Approximation in Reinforcement Learning](https://arxiv.org/abs/1702.03118)
+
+[Parametric Flatten-T Swish: An Adaptive Non-linear Activation Function For Deep Learning](https://arxiv.org/abs/2011.03155)
 
 ## Aria2
 
@@ -388,16 +391,16 @@ $$
 
 [Deep Learning with S-shaped Rectified Linear Activation Units](https://arxiv.org/abs/1512.07030)
 
-## FReLU
+## Funnel
 
 ```python
-echoAI.Activation.t_ops.FReLU(in_channels)
+echoAI.Activation.t_ops.Funnel(in_channels)
 ```
 
 Applies the element-wise function:
 
 $$
-\textbf{FReLU}(x)= \max(x,\mathbb{T}(x))
+\textbf{Funnel}(x)= \max(x,\mathbb{T}(x))
 $$
 
 #### Parameter: <a id="frelu-parameter"></a>
@@ -466,4 +469,25 @@ $$
 #### Reference: <a id="arelu-reference"></a>
 
 [AReLU: Attention-based Rectified Linear Unit](https://arxiv.org/abs/2006.13858)
+
+## FReLU
+
+```python
+echoAI.Activation.t_ops.FReLU()
+```
+
+Applies the element-wise function:
+
+$$
+\textbf{FReLU}(x)= \textbf{ReLU}(x) + b_{l}
+$$
+
+#### Shape: <a id="frelu-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+
+#### Reference: <a id="frelu-reference"></a>
+
+[FReLU: Flexible Rectified Linear Units for Improving Convolutional Neural Networks](https://arxiv.org/abs/1706.08098)
 
