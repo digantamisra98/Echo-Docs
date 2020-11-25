@@ -32,8 +32,12 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 22 | [ProbAct](https://arxiv.org/abs/1905.10761) | 🕑 | 🕑 | 🕑 |
 | 23 | [Noisy Activation Function](https://arxiv.org/abs/1603.00391) | 🕑 | 🕑 | 🕑 |
 | 24 | [NLReLU](https://arxiv.org/abs/1908.03682) | ✅ | ✅ | 🕑 |
-| 25 | [FReLU](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
+| 25 | [Funnel](https://arxiv.org/abs/2007.11824) | ✅ | 🕑 | ✅ |
 | 26 | [Dynamic ReLU](https://arxiv.org/abs/2003.10027) | 🕑 | 🕑 | 🕑 |
 | 27 | [AReLU](https://arxiv.org/abs/2006.13858) | ✅ | 🕑 | 🕑 |
 | 28 | [SLAF](https://arxiv.org/abs/1906.09529) | ✅ | 🕑 | 🕑 |
+| 29 | [FReLU](https://arxiv.org/abs/1706.08098) | ✅ | 🕑 | 🕑 |
+| 30 | [Parametric Flatten T-Swish](https://arxiv.org/abs/2011.03155) | ✅ | 🕑 | 🕑 |
+| 31 | [Adaptive Blending Units](https://arxiv.org/abs/1806.10064) | 🕑 | 🕑 | 🕑 |
+| 32 | [ACON](https://arxiv.org/abs/2009.04759) | 🕑 | 🕑 | 🕑 |
 
