@@ -40,4 +40,8 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 30 | [Parametric Flatten T-Swish](https://arxiv.org/abs/2011.03155) | ✅ | 🕑 | 🕑 |
 | 31 | [Adaptive Blending Units](https://arxiv.org/abs/1806.10064) | 🕑 | 🕑 | 🕑 |
 | 32 | [ACON](https://arxiv.org/abs/2009.04759) | 🕑 | 🕑 | 🕑 |
+| 35 | [EIS](https://arxiv.org/abs/2009.13501) | 🕑 | 🕑 | 🕑 |
+| 36 | [TanhSoft](https://arxiv.org/abs/2009.03863) | 🕑 | 🕑 | 🕑 |
+| 37 | [MPeLU](https://arxiv.org/abs/1606.00305) | 🕑 | 🕑 | 🕑 |
+| 38 | [MeLU](https://arxiv.org/abs/1905.02473) | 🕑 | 🕑 | 🕑 |
 
