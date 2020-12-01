@@ -44,4 +44,5 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 36 | [TanhSoft](https://arxiv.org/abs/2009.03863) | 🕑 | 🕑 | 🕑 |
 | 37 | [MPeLU](https://arxiv.org/abs/1606.00305) | 🕑 | 🕑 | 🕑 |
 | 38 | [MeLU](https://arxiv.org/abs/1905.02473) | 🕑 | 🕑 | 🕑 |
+| 39 | [Dynamic ShiftMax](https://arxiv.org/abs/2011.12289) | 🕑 | 🕑 | 🕑 |
 
