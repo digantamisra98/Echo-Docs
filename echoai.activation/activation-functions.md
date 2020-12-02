@@ -45,5 +45,7 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 37 | [MPeLU](https://arxiv.org/abs/1606.00305) | 🕑 | 🕑 | 🕑 |
 | 38 | [MeLU](https://arxiv.org/abs/1905.02473) | 🕑 | 🕑 | 🕑 |
 | 39 | [Dynamic ShiftMax](https://arxiv.org/abs/2011.12289) | 🕑 | 🕑 | 🕑 |
-| 40 | [APLU](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC6521876/) | 🕑 | 🕑 | 🕑 |
+| 40 | [APLU](https://arxiv.org/abs/1412.6830) | 🕑 | 🕑 | 🕑 |
+| 41 | [MBA](https://arxiv.org/abs/1604.00676) | 🕑 | 🕑 | 🕑 |
+| 42 | [SAAF](http://proceedings.mlr.press/v54/hou17a.html) | 🕑 | 🕑 | 🕑 |
 
