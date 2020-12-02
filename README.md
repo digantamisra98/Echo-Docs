@@ -48,8 +48,8 @@ Echo is maintained and supported by passionate researchers and developers from d
 _To get your organization logo displayed here, please contact any of the package admins/ creators._
 {% endhint %}
 
-| ![](.gitbook/assets/cae4ec78339485.5ca24a46b9da6.png) ![](.gitbook/assets/logo.png)![](.gitbook/assets/1200px-logo_of_x_-company-.svg.png) | ![](.gitbook/assets/c1f63ovveaapq-4.jpg)![](.gitbook/assets/mila-purple.png)![](.gitbook/assets/dplzk52v.jpg)  | ![](.gitbook/assets/kiit-university-logo-e1506355385141-1.jpg) ![](.gitbook/assets/wordmark.png)  |    |
-| :---: | :---: | :---: | :---: |
+| ![](.gitbook/assets/cae4ec78339485.5ca24a46b9da6.png) ![](.gitbook/assets/logo.png)![](.gitbook/assets/1200px-logo_of_x_-company-.svg.png) | ![](.gitbook/assets/c1f63ovveaapq-4.jpg)![](.gitbook/assets/mila-purple.png)![](.gitbook/assets/dplzk52v.jpg)  | ![](.gitbook/assets/bb006941-a5fe-4d4c-b13d-931f9b9c303f-1569362661885.png)![](.gitbook/assets/kiit-university-logo-e1506355385141-1.jpg) ![](.gitbook/assets/wordmark.png)  |   |   |    |
+| :---: | :---: | :---: | :--- | :--- | :---: |
 {% endtab %}
 {% endtabs %}
 
