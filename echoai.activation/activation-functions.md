@@ -50,4 +50,5 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 42 | [SAAF](http://proceedings.mlr.press/v54/hou17a.html) | 🕑 | 🕑 | 🕑 |
 | 43 | [DICE](https://arxiv.org/abs/1706.06978) | ✅ | 🕑 | 🕑 |
 | 44 | [XUnit](https://arxiv.org/abs/1711.06445) | ✅ | 🕑 | 🕑 |
+| 45 | [ProbAct](https://arxiv.org/abs/1905.10761) | ✅ | 🕑 | 🕑 |
 

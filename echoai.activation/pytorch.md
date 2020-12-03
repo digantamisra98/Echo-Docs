@@ -491,3 +491,23 @@ $$
 
 [FReLU: Flexible Rectified Linear Units for Improving Convolutional Neural Networks](https://arxiv.org/abs/1706.08098)
 
+## DICE
+
+```python
+echoAI.Activation.t_ops.DICE(emb_size, dim = 2, epsilon = 1e-8)
+```
+
+Applies the function:
+
+$$
+\textbf{DICE}(x)= \textbf{p(x)}\ast x + (1-\textbf{p(x)})\alpha x
+$$
+
+$$
+\textbf{p(x)} = \frac{1}{1 + e ^ {-\frac{x - E(x)}{\sqrt{Var(x) + \epsilon}}}}
+$$
+
+#### Reference: <a id="dice-reference"></a>
+
+[Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)
+
