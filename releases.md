@@ -4,7 +4,7 @@ description: History of Releases of Echo
 
 # Releases
 
-## 0.1.4 - 2020-12-XX  🌙
+## 0.1.4 - 2021-01-XX  🌙
 
 _**Upcoming Stable Release. Currently under development.**_
 
