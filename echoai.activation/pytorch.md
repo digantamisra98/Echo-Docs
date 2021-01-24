@@ -434,8 +434,8 @@ $$
 
 #### Shape: <a id="slaf-shape"></a>
 
-* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
-* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="slaf-reference"></a>
 
@@ -484,8 +484,8 @@ $$
 
 #### Shape: <a id="frelu-shape"></a>
 
-* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
-* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="frelu-reference"></a>
 
@@ -525,8 +525,8 @@ $$
 
 #### Shape: <a id="seagull-shape"></a>
 
-* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
-* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="seagull-reference"></a>
 
@@ -552,8 +552,8 @@ $$
 
 #### Shape: <a id="snake-shape"></a>
 
-* Input:$$(\mathbf{N}, *)$$
-* Output:$$(\mathbf{N}, *)$$, same shape as input
+* Input:$$(\mathbf{N}, \ast)$$where$$\ast$$means any number of additional dimensions
+* Output:$$(\mathbf{N}, \ast)$$, same shape as input
 
 #### Reference: <a id="snake-reference"></a>
 
