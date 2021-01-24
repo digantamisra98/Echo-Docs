@@ -6,17 +6,17 @@ description: The Hitchhiker's Guide to contributing your first pull request to E
 
 ## Introduction
 
-This page contains all relevant information for individuals and institutions who intend to contribute to Echo. Echo is an open source project and, as such, its success relies on its community of contributors willing to keep improving it. We value every contribution highly and believe a foundation guideline is extremely crucial in maintaining the quality of the code in such open source packages. 
+This page contains all relevant information for individuals and institutions who intend to contribute to Echo. Echo is an open source project and, as such, its success relies on its community of contributors willing to keep improving it. We value every contribution highly and believe a foundation guideline is extremely crucial in maintaining the quality of the code in such open source packages.
 
-Thus, we request you to read this page thoroughly before initiating your contribution, irrespective of whether you're a seasoned open source contributor/ maintainer or a first time contributor. 
+Thus, we request you to read this page thoroughly before initiating your contribution, irrespective of whether you're a seasoned open source contributor/ maintainer or a first time contributor.
 
-Thanks! 
+Thanks!
 
 ## Issues
 
-We highly encourage to raise issues before submitting a pull request regarding a new feature request. This helps us to communicate with you in regards to the validation and feasibility of introducing the new feature in discussion to Echo. As the scope of the project is huge, we plan to add new features which either has been published or has been validated by community usage. _**The discretion of accepting/ rejecting new feature requests lies solely with the administrators of the branch and the lead maintainers of the package.**_ 
+We highly encourage to raise issues before submitting a pull request regarding a new feature request. This helps us to communicate with you in regards to the validation and feasibility of introducing the new feature in discussion to Echo. As the scope of the project is huge, we plan to add new features which either has been published or has been validated by community usage. _**The discretion of accepting/ rejecting new feature requests lies solely with the administrators of the branch and the lead maintainers of the package.**_
 
-We also encourage to raise an issue regarding faulty code, vulnerabilities or bugs before submitting a pull request so that we can efficiently address the severity of the bug in question and also communicate efficient fix for you to submit ideal pull requests to resolve them. Please follow the issues template for consistency. 
+We also encourage to raise an issue regarding faulty code, vulnerabilities or bugs before submitting a pull request so that we can efficiently address the severity of the bug in question and also communicate efficient fix for you to submit ideal pull requests to resolve them. Please follow the issues template for consistency.
 
 ## Pull Requests
 
@@ -39,7 +39,7 @@ make lint  # runs the linting tools only
 
 ### Vulnerabilities Tracking
 
-| ![](.gitbook/assets/logo-black.png)  | Echo relies on Snyk for tracking vulnerability issues involved with dependencies graph for Echo. Snyk test is directly incorporated into the Travis CI/CD pipeline.    |
+| ![](.gitbook/assets/logo-black.png) | Echo relies on Snyk for tracking vulnerability issues involved with dependencies graph for Echo. Snyk test is directly incorporated into the Travis CI/CD pipeline. |
 | :---: | :--- |
 
 
@@ -52,7 +52,7 @@ Echo enforces four types of test to maintain code standards and compatibility fo
 * **Unit Tests**
 * **Integration Tests**
 
-All tests for Echo is located under the `tests/` directory. 
+All tests for Echo is located under the `tests/` directory.
 
 Before submitting a pull request, we recommend that all tests should pass, by running the following command locally:
 
@@ -76,6 +76,7 @@ To avoid code replication, we maintain common utils files in the `utils/`. It's 
 
 ### Documentation
 
-Echo's docs are located in the `master` branch of [Echo Docs](https://github.com/digantamisra98/Echo-Docs). 
+Echo's docs are located in the `master` branch of [Echo Docs](https://github.com/digantamisra98/Echo-Docs).
 
-While adding any new functionalities or fixing bug in Echo which requires modification in it's corresponding documentation, submit a pull request to the docs repository with clear reference to the original ticket in the Echo repository. Please follow the markdown styling for documentation as maintained in Echo Docs. 
+While adding any new functionalities or fixing bug in Echo which requires modification in it's corresponding documentation, submit a pull request to the docs repository with clear reference to the original ticket in the Echo repository. Please follow the markdown styling for documentation as maintained in Echo Docs.
+

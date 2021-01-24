@@ -51,4 +51,7 @@ Echo contains implementation for following activation functions \(✅ - implemen
 | 43 | [DICE](https://arxiv.org/abs/1706.06978) | ✅ | 🕑 | 🕑 |
 | 44 | [XUnit](https://arxiv.org/abs/1711.06445) | ✅ | 🕑 | 🕑 |
 | 45 | [ProbAct](https://arxiv.org/abs/1905.10761) | ✅ | 🕑 | 🕑 |
+| 46 | [Seagull](https://arxiv.org/abs/2011.11713) | ✅ | 🕑 | 🕑 |
+| 47 | [Snake](https://proceedings.neurips.cc//paper/2020/file/1160453108d3e537255e9f7b931f4e90-Paper.pdf) | ✅ | 🕑 | 🕑 |
+| 48 | [SIREN](https://arxiv.org/abs/2006.09661) | ✅ | 🕑 | 🕑 |
 
