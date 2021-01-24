@@ -550,7 +550,7 @@ $$
 * **alpha** -$$\alpha$$trainable hyper-parameter. Default: 1.0 when specified as `None`
 * **alpha\_trainable** - switches $$\alpha$$to be a trainable parameter. Default: True
 
-#### Shape: <a id="frelu-shape"></a>
+#### Shape: <a id="snake-shape"></a>
 
 * Input:$$(\mathbf{N}, *)$$
 * Output:$$(\mathbf{N}, *)$$, same shape as input
@@ -558,4 +558,35 @@ $$
 #### Reference: <a id="snake-reference"></a>
 
 [Neural Networks Fail to Learn Periodic Functions and How to Fix It](https://proceedings.neurips.cc//paper/2020/file/1160453108d3e537255e9f7b931f4e90-Paper.pdf)
+
+## SIREN
+
+```python
+echoAI.Activation.t_ops.SIREN(dim_in, dim_out, w0 = 30., c = 6., is_first = False, use_bias = True, activation = None)
+```
+
+Applies the function:
+
+$$
+\textbf{SIREN}(x)= \sin(\omega_{0}\ast\text{linear}(x))
+$$
+
+#### Parameters: <a id="siren-parameters"></a>
+
+* **dim\_in** - input dimension
+* **dim\_out** - output dimension
+* **w0** -$$\omega_{0}$$hyper-parameter. Default: 30.0
+* **c** - hyper-parameter used in weight initialisation for the linear layer. Default: 6.
+* **is\_first** - used for weight initialisation for the linear layer. Default: `False`
+* **use\_bias** - initialises bias parameter for the linear layer. Default: `True`
+* **activation** - used to initialise an activation function. Default: `None`. Initialises the `sine` activation function when `None`
+
+#### Shape: <a id="frelu-shape"></a>
+
+* Input:$$(\mathbf{x}, dim\_in)$$
+* Output:$$(\mathbf{x}, dim\_out)$$
+
+#### Reference: <a id="siren-reference"></a>
+
+[Implicit Neural Representations with Periodic Activation Functions](https://arxiv.org/abs/2006.09661)
 
