@@ -430,7 +430,7 @@ $$
 
 #### Parameter: <a id="slaf-parameter"></a>
 
-* **k** - Number of Taylor co-efficients. Default: 2
+* **k** - Number of Taylor coefficients. Default: 2
 
 #### Shape: <a id="slaf-shape"></a>
 
@@ -510,4 +510,52 @@ $$
 #### Reference: <a id="dice-reference"></a>
 
 [Deep Interest Network for Click-Through Rate Prediction](https://arxiv.org/abs/1706.06978)
+
+## Seagull
+
+```python
+echoAI.Activation.t_ops.Seagull()
+```
+
+Applies the function:
+
+$$
+\textbf{Seagull}(x)= \text{log}(1 + x^{2})
+$$
+
+#### Shape: <a id="seagull-shape"></a>
+
+* Input:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$where$$\mathbf{C}$$indicates the number of channels.
+* Output:$$(\mathbf{N}, \mathbf{C}, \mathbf{H}, \mathbf{W})$$, same shape as input
+
+#### Reference: <a id="seagull-reference"></a>
+
+[A Use of Even Activation Functions in Neural Networks](https://arxiv.org/abs/2011.11713)
+
+## Snake
+
+```python
+echoAI.Activation.t_ops.Snake(in_features, alpha = None, alpha_trainable = True)
+```
+
+Applies the function:
+
+$$
+\textbf{Snake}(x)= x + \frac{1}{\alpha}\sin^{2}(\alpha x)
+$$
+
+#### Parameters: <a id="snake-parameters"></a>
+
+* **in\_features** - shape of the input
+* **alpha** -$$\alpha$$trainable hyper-parameter. Default: 1.0 when specified as `None`
+* **alpha\_trainable** - switches $$\alpha$$to be a trainable parameter. Default: True
+
+#### Shape: <a id="frelu-shape"></a>
+
+* Input:$$(\mathbf{N}, *)$$
+* Output:$$(\mathbf{N}, *)$$, same shape as input
+
+#### Reference: <a id="snake-reference"></a>
+
+[Neural Networks Fail to Learn Periodic Functions and How to Fix It](https://proceedings.neurips.cc//paper/2020/file/1160453108d3e537255e9f7b931f4e90-Paper.pdf)
 
